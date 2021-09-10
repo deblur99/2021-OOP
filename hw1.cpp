@@ -15,9 +15,11 @@ private:
 public:
     void createVector() {
         float input = 0.f;
-        // debug
+        // assure that the input value is -1.
+        // if the input value is -1, then stop appending here.
         while (true) {
             cin >> input;
+            // compare between the input value and -1 precisely
             if (!(fabsf(input - (-1)) <= FLT_EPSILON))
                 myVector.push_back(input);
             else
@@ -57,7 +59,7 @@ public:
 int main() {
     VectorApp instance;
     instance.createVector();
-    instance.modifyVector(2, 3.14f);
-    instance.multiplyFromScalar(10.f);
+    instance.modifyVector(4, 1.5f);
+    instance.multiplyFromScalar(0.01f);
     instance.displayVector();
 }
