@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/OOP_2021/main.cpp
+C:/Users/deblu/CLionProjects/OOP_2021/hw1.cpp
 iostream
 -
-string
+vector
+-
+cmath
+-
+cfloat
 -
 

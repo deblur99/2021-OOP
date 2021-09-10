@@ -1,5 +1,7 @@
 #include <iostream>
-#include <string>
+#include <vector>
+
+using namespace std;
 
 int main() {
     std::string foo = "Hello ";
