@@ -145,4 +145,6 @@ int main() {
     instance.multiplyFromScalar();
     instance.multiplyFromScalar();
     instance.displayVector();
+
+    return 0;
 }
