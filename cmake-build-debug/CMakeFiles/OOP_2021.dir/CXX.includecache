@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/OOP_2021/hw1.cpp
+C:/Users/deblu/CLionProjects/OOP_2021/hw2.cpp
 iostream
 -
-vector
+random
 -
-cmath
--
-cfloat
+chrono
 -
 

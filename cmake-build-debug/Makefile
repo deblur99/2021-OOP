@@ -128,29 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-hw1.obj: hw1.cpp.obj
-.PHONY : hw1.obj
+hw2.obj: hw2.cpp.obj
+.PHONY : hw2.obj
 
 # target to build an object file
-hw1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw1.cpp.obj
-.PHONY : hw1.cpp.obj
+hw2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.obj
+.PHONY : hw2.cpp.obj
 
-hw1.i: hw1.cpp.i
-.PHONY : hw1.i
+hw2.i: hw2.cpp.i
+.PHONY : hw2.i
 
 # target to preprocess a source file
-hw1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw1.cpp.i
-.PHONY : hw1.cpp.i
+hw2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.i
+.PHONY : hw2.cpp.i
 
-hw1.s: hw1.cpp.s
-.PHONY : hw1.s
+hw2.s: hw2.cpp.s
+.PHONY : hw2.s
 
 # target to generate assembly for a file
-hw1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw1.cpp.s
-.PHONY : hw1.cpp.s
+hw2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.s
+.PHONY : hw2.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... hw1.obj
-	@echo ... hw1.i
-	@echo ... hw1.s
+	@echo ... hw2.obj
+	@echo ... hw2.i
+	@echo ... hw2.s
 .PHONY : help
 
 

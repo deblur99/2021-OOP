@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_2021.dir/hw1.cpp.obj"
+  "CMakeFiles/OOP_2021.dir/hw2.cpp.obj"
   "OOP_2021.exe"
   "OOP_2021.exe.manifest"
   "OOP_2021.pdb"
