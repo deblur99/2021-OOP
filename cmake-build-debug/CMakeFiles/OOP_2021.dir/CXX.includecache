@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 C:/Users/deblu/CLionProjects/OOP_2021/hw2.cpp
 iostream
 -
@@ -13,4 +14,9 @@ random
 -
 chrono
 -
+=======
+C:/Users/Deblur/CLionProjects/2021-OOP/hw1.cpp
+iostream
+-
+>>>>>>> ed0c3474b5f433f411974e7adec0f0b26a924c06
 
