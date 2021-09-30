@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OOP_2021">
-				<Option output="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/OOP_2021.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug"/>
+				<Option output="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/OOP_2021.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_2021"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_2021"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OOP_2021/fast">
-				<Option output="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/OOP_2021.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug"/>
+				<Option output="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/OOP_2021.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,31 +63,27 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_2021/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_2021/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-<<<<<<< HEAD
 		<Unit filename="C:/Users/deblu/CLionProjects/OOP_2021/hw2.cpp">
-=======
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/hw1.cpp">
->>>>>>> ed0c3474b5f433f411974e7adec0f0b26a924c06
 			<Option target="OOP_2021"/>
 		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/CMakeLists.txt">
+		<Unit filename="C:/Users/deblu/CLionProjects/OOP_2021/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
