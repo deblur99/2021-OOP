@@ -32,7 +32,7 @@ auto duration = current.time_since_epoch();
 auto mills = chrono::duration_cast<chrono::milliseconds>(duration).count();
 
 mt19937 gen(mills);
-uniform_int_distribution<int> dis(1, 200);
+uniform_int_distribution<int> dis(1, 2);
 
 class Matrix {
 private:
@@ -66,10 +66,18 @@ Matrix operator+(Matrix op1, Matrix op2) {
 
 Matrix operator*(Matrix op1, Matrix op2) {
     Matrix result;
+    int resultElement = 0;
 
     for (int i = 0; i < ROW; i++) {
+
         for (int j = 0; j < COL; j++) {
-            result.matrix[i][j] = op1.matrix[i][j] * op2.matrix[i][j];
+            resultElement = 0;
+            // 행렬 곱에 ESP 쓰지 말자
+            for (int k = 0; k < ROW; k++) {
+                resultElement += (op1.matrix[i][k] * op2.matrix[k][j]);
+            }
+
+            result.matrix[i][j] = resultElement;
         }
     }
 
