@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/OOP_2021/hw2.cpp
+C:/Users/deblu/CLionProjects/OOP_2021/practice-code/operator_overloading.cpp
 iostream
 -
-random
--
-chrono
+string
 -
 

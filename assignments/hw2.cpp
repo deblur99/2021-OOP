@@ -73,7 +73,7 @@ Matrix operator*(Matrix op1, Matrix op2) {
         for (int j = 0; j < COL; j++) {
             resultElement = 0;
             // 행렬 곱에 ESP 쓰지 말자
-            for (int k = 0; k < ROW; k++) {
+            for (int k = 0; k < COL; k++) {
                 resultElement += (op1.matrix[i][k] * op2.matrix[k][j]);
             }
 

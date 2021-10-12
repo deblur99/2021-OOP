@@ -128,29 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-hw2.obj: hw2.cpp.obj
-.PHONY : hw2.obj
+practice-code/operator_overloading.obj: practice-code/operator_overloading.cpp.obj
+.PHONY : practice-code/operator_overloading.obj
 
 # target to build an object file
-hw2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.obj
-.PHONY : hw2.cpp.obj
+practice-code/operator_overloading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj
+.PHONY : practice-code/operator_overloading.cpp.obj
 
-hw2.i: hw2.cpp.i
-.PHONY : hw2.i
+practice-code/operator_overloading.i: practice-code/operator_overloading.cpp.i
+.PHONY : practice-code/operator_overloading.i
 
 # target to preprocess a source file
-hw2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.i
-.PHONY : hw2.cpp.i
+practice-code/operator_overloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.i
+.PHONY : practice-code/operator_overloading.cpp.i
 
-hw2.s: hw2.cpp.s
-.PHONY : hw2.s
+practice-code/operator_overloading.s: practice-code/operator_overloading.cpp.s
+.PHONY : practice-code/operator_overloading.s
 
 # target to generate assembly for a file
-hw2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/hw2.cpp.s
-.PHONY : hw2.cpp.s
+practice-code/operator_overloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s
+.PHONY : practice-code/operator_overloading.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... hw2.obj
-	@echo ... hw2.i
-	@echo ... hw2.s
+	@echo ... practice-code/operator_overloading.obj
+	@echo ... practice-code/operator_overloading.i
+	@echo ... practice-code/operator_overloading.s
 .PHONY : help
 
 
