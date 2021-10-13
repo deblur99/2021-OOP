@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/deblu/CLionProjects/OOP_2021/practice-code/operator_overloading.cpp" "C:/Users/deblu/CLionProjects/OOP_2021/cmake-build-debug/CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj"
+  "C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/inheritance/q3~4.cpp" "C:/Users/Deblur/CLionProjects/2021-OOP/cmake-build-debug/CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

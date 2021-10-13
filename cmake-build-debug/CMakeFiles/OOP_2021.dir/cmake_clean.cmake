@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj"
+  "CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj"
   "OOP_2021.exe"
   "OOP_2021.exe.manifest"
   "OOP_2021.pdb"

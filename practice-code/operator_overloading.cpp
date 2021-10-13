@@ -16,21 +16,22 @@ public:
         this->x = x; this->y = y;
     }
 
-    void operator ++ () { // prefix
+    foo& operator ++ () { // prefix
         x++; y++;
+        return *this;
     }
 
     foo operator + (int op) {
         foo result;
-        result.x = this->x + op;
-        result.y = this->y + op;
+        result.x = x + op;
+        result.y = y + op;
         return result;
     }
 
     foo operator + (foo op) {
         foo result;
-        result.x = this->x + op.x;
-        result.y = this->y + op.y;
+        result.x = x + op.x;
+        result.y = y + op.y;
         return result;
     }
 
@@ -39,8 +40,8 @@ public:
     }
 
     foo& operator >> (int op) {
-        this->x += op;
-        this->y += op;
+        x += op;
+        y += op;
         return *this;
     }
 
@@ -58,7 +59,7 @@ int main() {
 
     (m + n).show();
     (n + 100).show();
-    ++m;
+    (++m + 100).show();
 
     // double b; -> double형 변수 b 선언 (오버로딩 X)
     double a = double(m); // double(class foo 객체) -> 오버로딩 O

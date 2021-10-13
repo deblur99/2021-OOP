@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\deblu\CLionProjects\OOP_2021
+CMAKE_SOURCE_DIR = C:\Users\Deblur\CLionProjects\2021-OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\CMakeFiles C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-practice-code/operator_overloading.obj: practice-code/operator_overloading.cpp.obj
-.PHONY : practice-code/operator_overloading.obj
+practice-code/inheritance/q3~4.obj: practice-code/inheritance/q3~4.cpp.obj
+.PHONY : practice-code/inheritance/q3~4.obj
 
 # target to build an object file
-practice-code/operator_overloading.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj
-.PHONY : practice-code/operator_overloading.cpp.obj
+practice-code/inheritance/q3~4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj
+.PHONY : practice-code/inheritance/q3~4.cpp.obj
 
-practice-code/operator_overloading.i: practice-code/operator_overloading.cpp.i
-.PHONY : practice-code/operator_overloading.i
+practice-code/inheritance/q3~4.i: practice-code/inheritance/q3~4.cpp.i
+.PHONY : practice-code/inheritance/q3~4.i
 
 # target to preprocess a source file
-practice-code/operator_overloading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.i
-.PHONY : practice-code/operator_overloading.cpp.i
+practice-code/inheritance/q3~4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.i
+.PHONY : practice-code/inheritance/q3~4.cpp.i
 
-practice-code/operator_overloading.s: practice-code/operator_overloading.cpp.s
-.PHONY : practice-code/operator_overloading.s
+practice-code/inheritance/q3~4.s: practice-code/inheritance/q3~4.cpp.s
+.PHONY : practice-code/inheritance/q3~4.s
 
 # target to generate assembly for a file
-practice-code/operator_overloading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s
-.PHONY : practice-code/operator_overloading.cpp.s
+practice-code/inheritance/q3~4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.s
+.PHONY : practice-code/inheritance/q3~4.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... practice-code/operator_overloading.obj
-	@echo ... practice-code/operator_overloading.i
-	@echo ... practice-code/operator_overloading.s
+	@echo ... practice-code/inheritance/q3~4.obj
+	@echo ... practice-code/inheritance/q3~4.i
+	@echo ... practice-code/inheritance/q3~4.s
 .PHONY : help
 
 
