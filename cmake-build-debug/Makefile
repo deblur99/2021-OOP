@@ -128,29 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-practice-code/inheritance/q3~4.obj: practice-code/inheritance/q3~4.cpp.obj
-.PHONY : practice-code/inheritance/q3~4.obj
+practice-code/inheritance/q5~6.obj: practice-code/inheritance/q5~6.cpp.obj
+.PHONY : practice-code/inheritance/q5~6.obj
 
 # target to build an object file
-practice-code/inheritance/q3~4.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj
-.PHONY : practice-code/inheritance/q3~4.cpp.obj
+practice-code/inheritance/q5~6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj
+.PHONY : practice-code/inheritance/q5~6.cpp.obj
 
-practice-code/inheritance/q3~4.i: practice-code/inheritance/q3~4.cpp.i
-.PHONY : practice-code/inheritance/q3~4.i
+practice-code/inheritance/q5~6.i: practice-code/inheritance/q5~6.cpp.i
+.PHONY : practice-code/inheritance/q5~6.i
 
 # target to preprocess a source file
-practice-code/inheritance/q3~4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.i
-.PHONY : practice-code/inheritance/q3~4.cpp.i
+practice-code/inheritance/q5~6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.i
+.PHONY : practice-code/inheritance/q5~6.cpp.i
 
-practice-code/inheritance/q3~4.s: practice-code/inheritance/q3~4.cpp.s
-.PHONY : practice-code/inheritance/q3~4.s
+practice-code/inheritance/q5~6.s: practice-code/inheritance/q5~6.cpp.s
+.PHONY : practice-code/inheritance/q5~6.s
 
 # target to generate assembly for a file
-practice-code/inheritance/q3~4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.s
-.PHONY : practice-code/inheritance/q3~4.cpp.s
+practice-code/inheritance/q5~6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.s
+.PHONY : practice-code/inheritance/q5~6.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... practice-code/inheritance/q3~4.obj
-	@echo ... practice-code/inheritance/q3~4.i
-	@echo ... practice-code/inheritance/q3~4.s
+	@echo ... practice-code/inheritance/q5~6.obj
+	@echo ... practice-code/inheritance/q5~6.i
+	@echo ... practice-code/inheritance/q5~6.s
 .PHONY : help
 
 

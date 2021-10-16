@@ -65,27 +65,27 @@ include CMakeFiles/OOP_2021.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP_2021.dir/flags.make
 
-CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj: ../practice-code/inheritance/q3~4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\inheritance\q3~4.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q3~4.cpp
+CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
+CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj: ../practice-code/inheritance/q5~6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\inheritance\q5~6.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q5~6.cpp
 
-CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q3~4.cpp > CMakeFiles\OOP_2021.dir\practice-code\inheritance\q3~4.cpp.i
+CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q5~6.cpp > CMakeFiles\OOP_2021.dir\practice-code\inheritance\q5~6.cpp.i
 
-CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q3~4.cpp -o CMakeFiles\OOP_2021.dir\practice-code\inheritance\q3~4.cpp.s
+CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\inheritance\q5~6.cpp -o CMakeFiles\OOP_2021.dir\practice-code\inheritance\q5~6.cpp.s
 
 # Object files for target OOP_2021
 OOP_2021_OBJECTS = \
-"CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj"
+"CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj"
 
 # External object files for target OOP_2021
 OOP_2021_EXTERNAL_OBJECTS =
 
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/inheritance/q3~4.cpp.obj
+OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/inheritance/q5~6.cpp.obj
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/build.make
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/linklibs.rsp
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/objects1.rsp
