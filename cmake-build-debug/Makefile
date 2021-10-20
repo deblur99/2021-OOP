@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\deblu\CLionProjects\OOP_2021
+CMAKE_SOURCE_DIR = C:\Users\Deblur\CLionProjects\2021-OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\Deblur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\CMakeFiles C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deblu\CLionProjects\OOP_2021\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,126 @@ practice-code/operator_overloading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s
 .PHONY : practice-code/operator_overloading.cpp.s
 
+practice-code/virtual/q10/Circle.obj: practice-code/virtual/q10/Circle.cpp.obj
+.PHONY : practice-code/virtual/q10/Circle.obj
+
+# target to build an object file
+practice-code/virtual/q10/Circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj
+.PHONY : practice-code/virtual/q10/Circle.cpp.obj
+
+practice-code/virtual/q10/Circle.i: practice-code/virtual/q10/Circle.cpp.i
+.PHONY : practice-code/virtual/q10/Circle.i
+
+# target to preprocess a source file
+practice-code/virtual/q10/Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.i
+.PHONY : practice-code/virtual/q10/Circle.cpp.i
+
+practice-code/virtual/q10/Circle.s: practice-code/virtual/q10/Circle.cpp.s
+.PHONY : practice-code/virtual/q10/Circle.s
+
+# target to generate assembly for a file
+practice-code/virtual/q10/Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.s
+.PHONY : practice-code/virtual/q10/Circle.cpp.s
+
+practice-code/virtual/q10/Line.obj: practice-code/virtual/q10/Line.cpp.obj
+.PHONY : practice-code/virtual/q10/Line.obj
+
+# target to build an object file
+practice-code/virtual/q10/Line.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj
+.PHONY : practice-code/virtual/q10/Line.cpp.obj
+
+practice-code/virtual/q10/Line.i: practice-code/virtual/q10/Line.cpp.i
+.PHONY : practice-code/virtual/q10/Line.i
+
+# target to preprocess a source file
+practice-code/virtual/q10/Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.i
+.PHONY : practice-code/virtual/q10/Line.cpp.i
+
+practice-code/virtual/q10/Line.s: practice-code/virtual/q10/Line.cpp.s
+.PHONY : practice-code/virtual/q10/Line.s
+
+# target to generate assembly for a file
+practice-code/virtual/q10/Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.s
+.PHONY : practice-code/virtual/q10/Line.cpp.s
+
+practice-code/virtual/q10/Rect.obj: practice-code/virtual/q10/Rect.cpp.obj
+.PHONY : practice-code/virtual/q10/Rect.obj
+
+# target to build an object file
+practice-code/virtual/q10/Rect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj
+.PHONY : practice-code/virtual/q10/Rect.cpp.obj
+
+practice-code/virtual/q10/Rect.i: practice-code/virtual/q10/Rect.cpp.i
+.PHONY : practice-code/virtual/q10/Rect.i
+
+# target to preprocess a source file
+practice-code/virtual/q10/Rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.i
+.PHONY : practice-code/virtual/q10/Rect.cpp.i
+
+practice-code/virtual/q10/Rect.s: practice-code/virtual/q10/Rect.cpp.s
+.PHONY : practice-code/virtual/q10/Rect.s
+
+# target to generate assembly for a file
+practice-code/virtual/q10/Rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.s
+.PHONY : practice-code/virtual/q10/Rect.cpp.s
+
+practice-code/virtual/q10/Shape.obj: practice-code/virtual/q10/Shape.cpp.obj
+.PHONY : practice-code/virtual/q10/Shape.obj
+
+# target to build an object file
+practice-code/virtual/q10/Shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj
+.PHONY : practice-code/virtual/q10/Shape.cpp.obj
+
+practice-code/virtual/q10/Shape.i: practice-code/virtual/q10/Shape.cpp.i
+.PHONY : practice-code/virtual/q10/Shape.i
+
+# target to preprocess a source file
+practice-code/virtual/q10/Shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.i
+.PHONY : practice-code/virtual/q10/Shape.cpp.i
+
+practice-code/virtual/q10/Shape.s: practice-code/virtual/q10/Shape.cpp.s
+.PHONY : practice-code/virtual/q10/Shape.s
+
+# target to generate assembly for a file
+practice-code/virtual/q10/Shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.s
+.PHONY : practice-code/virtual/q10/Shape.cpp.s
+
+practice-code/virtual/q10/q10.obj: practice-code/virtual/q10/q10.cpp.obj
+.PHONY : practice-code/virtual/q10/q10.obj
+
+# target to build an object file
+practice-code/virtual/q10/q10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj
+.PHONY : practice-code/virtual/q10/q10.cpp.obj
+
+practice-code/virtual/q10/q10.i: practice-code/virtual/q10/q10.cpp.i
+.PHONY : practice-code/virtual/q10/q10.i
+
+# target to preprocess a source file
+practice-code/virtual/q10/q10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.i
+.PHONY : practice-code/virtual/q10/q10.cpp.i
+
+practice-code/virtual/q10/q10.s: practice-code/virtual/q10/q10.cpp.s
+.PHONY : practice-code/virtual/q10/q10.s
+
+# target to generate assembly for a file
+practice-code/virtual/q10/q10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.s
+.PHONY : practice-code/virtual/q10/q10.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +284,21 @@ help:
 	@echo ... practice-code/operator_overloading.obj
 	@echo ... practice-code/operator_overloading.i
 	@echo ... practice-code/operator_overloading.s
+	@echo ... practice-code/virtual/q10/Circle.obj
+	@echo ... practice-code/virtual/q10/Circle.i
+	@echo ... practice-code/virtual/q10/Circle.s
+	@echo ... practice-code/virtual/q10/Line.obj
+	@echo ... practice-code/virtual/q10/Line.i
+	@echo ... practice-code/virtual/q10/Line.s
+	@echo ... practice-code/virtual/q10/Rect.obj
+	@echo ... practice-code/virtual/q10/Rect.i
+	@echo ... practice-code/virtual/q10/Rect.s
+	@echo ... practice-code/virtual/q10/Shape.obj
+	@echo ... practice-code/virtual/q10/Shape.i
+	@echo ... practice-code/virtual/q10/Shape.s
+	@echo ... practice-code/virtual/q10/q10.obj
+	@echo ... practice-code/virtual/q10/q10.i
+	@echo ... practice-code/virtual/q10/q10.s
 .PHONY : help
 
 
