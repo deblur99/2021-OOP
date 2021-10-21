@@ -65,107 +65,32 @@ include CMakeFiles/OOP_2021.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP_2021.dir/flags.make
 
-CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj: ../practice-code/operator_overloading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\operator_overloading.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\operator_overloading.cpp
+CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
+CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj: ../assignments/midterm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\assignments\midterm.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\assignments\midterm.cpp
 
-CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\operator_overloading.cpp > CMakeFiles\OOP_2021.dir\practice-code\operator_overloading.cpp.i
+CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\assignments\midterm.cpp > CMakeFiles\OOP_2021.dir\assignments\midterm.cpp.i
 
-CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\operator_overloading.cpp -o CMakeFiles\OOP_2021.dir\practice-code\operator_overloading.cpp.s
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj: ../practice-code/virtual/q10/q10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\q10.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\q10.cpp
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\q10.cpp > CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\q10.cpp.i
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\q10.cpp -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\q10.cpp.s
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj: ../practice-code/virtual/q10/Circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Circle.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Circle.cpp
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Circle.cpp > CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Circle.cpp.i
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Circle.cpp -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Circle.cpp.s
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj: ../practice-code/virtual/q10/Shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Shape.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Shape.cpp
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Shape.cpp > CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Shape.cpp.i
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Shape.cpp -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Shape.cpp.s
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj: ../practice-code/virtual/q10/Rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Rect.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Rect.cpp
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Rect.cpp > CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Rect.cpp.i
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Rect.cpp -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Rect.cpp.s
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj: CMakeFiles/OOP_2021.dir/flags.make
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj: ../practice-code/virtual/q10/Line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Line.cpp.obj -c C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Line.cpp
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Line.cpp > CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Line.cpp.i
-
-CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\practice-code\virtual\q10\Line.cpp -o CMakeFiles\OOP_2021.dir\practice-code\virtual\q10\Line.cpp.s
+CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Deblur\CLionProjects\2021-OOP\assignments\midterm.cpp -o CMakeFiles\OOP_2021.dir\assignments\midterm.cpp.s
 
 # Object files for target OOP_2021
 OOP_2021_OBJECTS = \
-"CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj" \
-"CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj" \
-"CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj" \
-"CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj" \
-"CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj" \
-"CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj"
+"CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj"
 
 # External object files for target OOP_2021
 OOP_2021_EXTERNAL_OBJECTS =
 
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj
-OOP_2021.exe: CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj
+OOP_2021.exe: CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/build.make
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/linklibs.rsp
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/objects1.rsp
 OOP_2021.exe: CMakeFiles/OOP_2021.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OOP_2021.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Deblur\CLionProjects\2021-OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OOP_2021.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP_2021.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

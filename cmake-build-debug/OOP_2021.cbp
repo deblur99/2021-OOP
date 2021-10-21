@@ -80,34 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/operator_overloading.cpp">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Circle.cpp">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Circle.h">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Line.cpp">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Line.h">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Rect.cpp">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Rect.h">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Shape.cpp">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/Shape.h">
-			<Option target="OOP_2021"/>
-		</Unit>
-		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/practice-code/virtual/q10/q10.cpp">
+		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/assignments/midterm.cpp">
 			<Option target="OOP_2021"/>
 		</Unit>
 		<Unit filename="C:/Users/Deblur/CLionProjects/2021-OOP/CMakeLists.txt">

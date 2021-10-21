@@ -128,149 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-practice-code/operator_overloading.obj: practice-code/operator_overloading.cpp.obj
-.PHONY : practice-code/operator_overloading.obj
+assignments/midterm.obj: assignments/midterm.cpp.obj
+.PHONY : assignments/midterm.obj
 
 # target to build an object file
-practice-code/operator_overloading.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.obj
-.PHONY : practice-code/operator_overloading.cpp.obj
+assignments/midterm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj
+.PHONY : assignments/midterm.cpp.obj
 
-practice-code/operator_overloading.i: practice-code/operator_overloading.cpp.i
-.PHONY : practice-code/operator_overloading.i
-
-# target to preprocess a source file
-practice-code/operator_overloading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.i
-.PHONY : practice-code/operator_overloading.cpp.i
-
-practice-code/operator_overloading.s: practice-code/operator_overloading.cpp.s
-.PHONY : practice-code/operator_overloading.s
-
-# target to generate assembly for a file
-practice-code/operator_overloading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/operator_overloading.cpp.s
-.PHONY : practice-code/operator_overloading.cpp.s
-
-practice-code/virtual/q10/Circle.obj: practice-code/virtual/q10/Circle.cpp.obj
-.PHONY : practice-code/virtual/q10/Circle.obj
-
-# target to build an object file
-practice-code/virtual/q10/Circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.obj
-.PHONY : practice-code/virtual/q10/Circle.cpp.obj
-
-practice-code/virtual/q10/Circle.i: practice-code/virtual/q10/Circle.cpp.i
-.PHONY : practice-code/virtual/q10/Circle.i
+assignments/midterm.i: assignments/midterm.cpp.i
+.PHONY : assignments/midterm.i
 
 # target to preprocess a source file
-practice-code/virtual/q10/Circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.i
-.PHONY : practice-code/virtual/q10/Circle.cpp.i
+assignments/midterm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.i
+.PHONY : assignments/midterm.cpp.i
 
-practice-code/virtual/q10/Circle.s: practice-code/virtual/q10/Circle.cpp.s
-.PHONY : practice-code/virtual/q10/Circle.s
-
-# target to generate assembly for a file
-practice-code/virtual/q10/Circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Circle.cpp.s
-.PHONY : practice-code/virtual/q10/Circle.cpp.s
-
-practice-code/virtual/q10/Line.obj: practice-code/virtual/q10/Line.cpp.obj
-.PHONY : practice-code/virtual/q10/Line.obj
-
-# target to build an object file
-practice-code/virtual/q10/Line.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.obj
-.PHONY : practice-code/virtual/q10/Line.cpp.obj
-
-practice-code/virtual/q10/Line.i: practice-code/virtual/q10/Line.cpp.i
-.PHONY : practice-code/virtual/q10/Line.i
-
-# target to preprocess a source file
-practice-code/virtual/q10/Line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.i
-.PHONY : practice-code/virtual/q10/Line.cpp.i
-
-practice-code/virtual/q10/Line.s: practice-code/virtual/q10/Line.cpp.s
-.PHONY : practice-code/virtual/q10/Line.s
+assignments/midterm.s: assignments/midterm.cpp.s
+.PHONY : assignments/midterm.s
 
 # target to generate assembly for a file
-practice-code/virtual/q10/Line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Line.cpp.s
-.PHONY : practice-code/virtual/q10/Line.cpp.s
-
-practice-code/virtual/q10/Rect.obj: practice-code/virtual/q10/Rect.cpp.obj
-.PHONY : practice-code/virtual/q10/Rect.obj
-
-# target to build an object file
-practice-code/virtual/q10/Rect.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.obj
-.PHONY : practice-code/virtual/q10/Rect.cpp.obj
-
-practice-code/virtual/q10/Rect.i: practice-code/virtual/q10/Rect.cpp.i
-.PHONY : practice-code/virtual/q10/Rect.i
-
-# target to preprocess a source file
-practice-code/virtual/q10/Rect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.i
-.PHONY : practice-code/virtual/q10/Rect.cpp.i
-
-practice-code/virtual/q10/Rect.s: practice-code/virtual/q10/Rect.cpp.s
-.PHONY : practice-code/virtual/q10/Rect.s
-
-# target to generate assembly for a file
-practice-code/virtual/q10/Rect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Rect.cpp.s
-.PHONY : practice-code/virtual/q10/Rect.cpp.s
-
-practice-code/virtual/q10/Shape.obj: practice-code/virtual/q10/Shape.cpp.obj
-.PHONY : practice-code/virtual/q10/Shape.obj
-
-# target to build an object file
-practice-code/virtual/q10/Shape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.obj
-.PHONY : practice-code/virtual/q10/Shape.cpp.obj
-
-practice-code/virtual/q10/Shape.i: practice-code/virtual/q10/Shape.cpp.i
-.PHONY : practice-code/virtual/q10/Shape.i
-
-# target to preprocess a source file
-practice-code/virtual/q10/Shape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.i
-.PHONY : practice-code/virtual/q10/Shape.cpp.i
-
-practice-code/virtual/q10/Shape.s: practice-code/virtual/q10/Shape.cpp.s
-.PHONY : practice-code/virtual/q10/Shape.s
-
-# target to generate assembly for a file
-practice-code/virtual/q10/Shape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/Shape.cpp.s
-.PHONY : practice-code/virtual/q10/Shape.cpp.s
-
-practice-code/virtual/q10/q10.obj: practice-code/virtual/q10/q10.cpp.obj
-.PHONY : practice-code/virtual/q10/q10.obj
-
-# target to build an object file
-practice-code/virtual/q10/q10.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.obj
-.PHONY : practice-code/virtual/q10/q10.cpp.obj
-
-practice-code/virtual/q10/q10.i: practice-code/virtual/q10/q10.cpp.i
-.PHONY : practice-code/virtual/q10/q10.i
-
-# target to preprocess a source file
-practice-code/virtual/q10/q10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.i
-.PHONY : practice-code/virtual/q10/q10.cpp.i
-
-practice-code/virtual/q10/q10.s: practice-code/virtual/q10/q10.cpp.s
-.PHONY : practice-code/virtual/q10/q10.s
-
-# target to generate assembly for a file
-practice-code/virtual/q10/q10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/practice-code/virtual/q10/q10.cpp.s
-.PHONY : practice-code/virtual/q10/q10.cpp.s
+assignments/midterm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.s
+.PHONY : assignments/midterm.cpp.s
 
 # Help Target
 help:
@@ -281,24 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... practice-code/operator_overloading.obj
-	@echo ... practice-code/operator_overloading.i
-	@echo ... practice-code/operator_overloading.s
-	@echo ... practice-code/virtual/q10/Circle.obj
-	@echo ... practice-code/virtual/q10/Circle.i
-	@echo ... practice-code/virtual/q10/Circle.s
-	@echo ... practice-code/virtual/q10/Line.obj
-	@echo ... practice-code/virtual/q10/Line.i
-	@echo ... practice-code/virtual/q10/Line.s
-	@echo ... practice-code/virtual/q10/Rect.obj
-	@echo ... practice-code/virtual/q10/Rect.i
-	@echo ... practice-code/virtual/q10/Rect.s
-	@echo ... practice-code/virtual/q10/Shape.obj
-	@echo ... practice-code/virtual/q10/Shape.i
-	@echo ... practice-code/virtual/q10/Shape.s
-	@echo ... practice-code/virtual/q10/q10.obj
-	@echo ... practice-code/virtual/q10/q10.i
-	@echo ... practice-code/virtual/q10/q10.s
+	@echo ... assignments/midterm.obj
+	@echo ... assignments/midterm.i
+	@echo ... assignments/midterm.s
 .PHONY : help
 
 
