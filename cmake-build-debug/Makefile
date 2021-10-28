@@ -128,29 +128,29 @@ OOP_2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/build
 .PHONY : OOP_2021/fast
 
-assignments/midterm.obj: assignments/midterm.cpp.obj
-.PHONY : assignments/midterm.obj
+assignments/hw4.obj: assignments/hw4.cpp.obj
+.PHONY : assignments/hw4.obj
 
 # target to build an object file
-assignments/midterm.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj
-.PHONY : assignments/midterm.cpp.obj
+assignments/hw4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/hw4.cpp.obj
+.PHONY : assignments/hw4.cpp.obj
 
-assignments/midterm.i: assignments/midterm.cpp.i
-.PHONY : assignments/midterm.i
+assignments/hw4.i: assignments/hw4.cpp.i
+.PHONY : assignments/hw4.i
 
 # target to preprocess a source file
-assignments/midterm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.i
-.PHONY : assignments/midterm.cpp.i
+assignments/hw4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/hw4.cpp.i
+.PHONY : assignments/hw4.cpp.i
 
-assignments/midterm.s: assignments/midterm.cpp.s
-.PHONY : assignments/midterm.s
+assignments/hw4.s: assignments/hw4.cpp.s
+.PHONY : assignments/hw4.s
 
 # target to generate assembly for a file
-assignments/midterm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.s
-.PHONY : assignments/midterm.cpp.s
+assignments/hw4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2021.dir\build.make CMakeFiles/OOP_2021.dir/assignments/hw4.cpp.s
+.PHONY : assignments/hw4.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2021
-	@echo ... assignments/midterm.obj
-	@echo ... assignments/midterm.i
-	@echo ... assignments/midterm.s
+	@echo ... assignments/hw4.obj
+	@echo ... assignments/hw4.i
+	@echo ... assignments/hw4.s
 .PHONY : help
 
 

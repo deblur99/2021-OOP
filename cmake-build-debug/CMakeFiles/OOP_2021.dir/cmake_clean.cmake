@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_2021.dir/assignments/midterm.cpp.obj"
+  "CMakeFiles/OOP_2021.dir/assignments/hw4.cpp.obj"
   "OOP_2021.exe"
   "OOP_2021.exe.manifest"
   "OOP_2021.pdb"
